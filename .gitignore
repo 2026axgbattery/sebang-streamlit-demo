@@ -1,0 +1,17 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Secrets (never commit)
+.streamlit/secrets.toml
+.env
+.env.*
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
